@@ -12,3 +12,11 @@
 .screen-header__icon span{
     margin-left: var(--horizantal-space);
 }
+.screen-header__notification {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.screen-header__icon span:last-child {
+    position: relative;
+}
