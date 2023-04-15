@@ -1,0 +1,24 @@
+.more-screen .icon-row {
+    margin-top: 30px;
+}
+.more-screen .icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
