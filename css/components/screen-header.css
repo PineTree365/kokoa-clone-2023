@@ -20,3 +20,16 @@
 .screen-header__icon span:last-child {
     position: relative;
 }
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotatez(360deg);
+    }
+}
+
+.screen-header__icon .fa-gear:hover {
+    animation: rotateCog 1s linear infinite;
+}
